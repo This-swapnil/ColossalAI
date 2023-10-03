@@ -67,7 +67,7 @@ class ShardConfig:
         """
         # you can add all the optimization flag here
         self.enable_fused_normalization = True
-        self.enable_flash_attention = True
+        self.enable_flash_attention = False
         self.enable_jit_fused = True
         self.enable_sequence_parallelism = True
         self.enable_sequence_overlap = True
